@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSIB Bandung</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a0f2d; /* biru pekat gelap */
+            color: #ffffff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0a0f2d, #1d2fa3);
+            padding: 25px;
+            text-align: center;
+            border-bottom: 4px solid #c21818; /* aksen merah */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background: #10173e;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 2px solid #c21818;
+        }
+
+        nav a {
+            color: #ffdddd; 
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff3d3d;
+        }
+
+        .hero {
+            background: url("https://via.placeholder.com/1400x600/0a0f2d/ffffff?text=PERSIB+Bandung") 
+                        center/cover no-repeat;
+            padding: 120px 20px;
+            text-align: center;
+            color: white;
+            border-bottom: 5px solid #c21818;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            text-shadow: 0 0 15px #c21818;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #c21818;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .card-box {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #121b48;
+            width: 300px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+            border-top: 4px solid #c21818;
+        }
+
+        footer {
+            background: #0a0f2d;
+            text-align: center;
+            padding: 20px;
+            border-top: 3px solid #c21818;
+            margin-top: 50px;
+            color: #ffdddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PERSIB BANDUNG</h1>
+        <p>Maung Bandung – Kami Biru!</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#pemain">Pemain</a>
+        <a href="#prestasi">Prestasi</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Hidup PERSIB!</h2>
+        <p>Klub kebanggaan Jawa Barat.</p>
+    </section>
+
+    <div class="container" id="tentang">
+        <h2 class="title">Tentang PERSIB</h2>
+        <p>
+            PERSIB Bandung adalah klub sepak bola asal Kota Bandung yang berdiri sejak 1933.
+            Dikenal dengan julukan <b>Maung Bandung</b>, PERSIB menjadi salah satu klub terbesar di Indonesia
+            dengan suporter fanatik bernama <b>Bobotoh</b>.
+        </p>
+    </div>
+
+    <div class="container" id="pemain">
+        <h2 class="title">Pemain Ikonik</h2>
+        <div class="card-box">
+            <div class="card">
+                <h3>Febri Hariyadi</h3>
+                <p>Winger cepat dengan julukan Bow.</p>
+            </div>
+
+            <div class="card">
+                <h3>Marc Klok</h3>
+                <p>Gelandang pekerja keras dengan visi permainan tinggi.</p>
+            </div>
+
+            <div class="card">
+                <h3>Victor Igbonefo</h3>
+                <p>Bek tangguh dan salah satu pilar pertahanan PERSIB.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="prestasi">
+        <h2 class="title">Prestasi</h2>
+        <p>PERSIB telah meraih berbagai gelar nasional dan internasional, di antaranya:</p>
+        <ul>
+            <li>Juara Liga Indonesia 1994/95</li>
+            <li>Juara Liga Super Indonesia 2014</li>
+            <li>Juara Piala Presiden 2015</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2025 PERSIB Bandung. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
